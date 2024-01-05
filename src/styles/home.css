@@ -1,9 +1,41 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,400&display=swap');
+
 * {
   margin: 0;
   padding: 0
 }
+/* div#root {
+  background-color: #2F3133
+} */
+a {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
-/* NAVBAR */
+/* Navbar Styles */
+.nav-container {
+  padding: 0
+}
 .nav-top {
   display: flex;
   align-items: center;
@@ -18,9 +50,8 @@
 }
 .nav-left input{
   margin-left: 30px;
-  width: 300px;
+  width: 350px;
 }
-
 .nav-right {
   margin-right: 30px;
   display: flex;
@@ -30,9 +61,208 @@
 .nav-cloud-icon {
   margin-right: 30px;
   color: white;
+  cursor: pointer;
 }
 .nav-noti-icon {
-  margin-right: 30px;
   color: white;
+  cursor: pointer;
+}
+.nav-headers{
+  background-color: #414548;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 16px;
+}
+.nav-headers a {
+  color: #B7B7B8;
+}
+.nav-headers a:hover {
+  color: #6D8284;
+}
+
+/* Featured User Card Styles */
+
+.featured-section {
+  padding: 10px 0 30px 0;
+}
+.featured-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.inside-featured-card {
+  height: 500px;
+  width: 400px;
+  text-align: center;
+  padding: 40px 10px 0 10px;
+  background-color: #6D8284;
+  color: white;
+  margin: 0 0 100px 0;
+  box-shadow: 3px 4px #1a1e1e;
+  border: grey solid 1px;
+}
+.inside-featured-card img {
+  width: 230px;
+}
+.inside-featured-card img,
+.inside-featured-card p,
+.inside-featured-card h1 {
+  margin-bottom: 20px;
+}
+
+/* Recommended Card Styles */
+.recs-container {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.recs-card {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Form Section Styling */
+.form-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.form-container h1{
+  margin-bottom: 10px;
+}
+.form-container form {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+}
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+#form-name,
+#form-description,
+#form-genre,
+#form-image,
+#form-location,
+#form-description,
+#form-rating,
+#form-flag {
+  margin: 5px;
+  display: block;
+  width: 100%;
+}
+#form-description {
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+}
+.form-container button {
+  padding: 10px;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1D1D1D;
+  color: white;
+}
+.form-container button:hover {
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer Section Styling */
+footer {
+  position: fluid;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 20px;
+  background-color: #1D1D1D;
+  color: #f9f9f9;
+}
+footer section {
+  padding: 0 50px;
+}
+section.top {
+  padding-top: 30px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+section.top img {
+  display: block;
+  height: 30px;
+  margin: 0 0 30px;
+}
+section.top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+section.top ul li a {
+  display: block;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  color:
+  rgb(255 255 255 / 90%);
+  font-size: 13px;
+}
+section.top ul li a:hover{
+  display: block;
+  margin-bottom: 10px;
+  color: #6D8284;
+}
+section.top h3 {
+  color:rgb(255 255 255 / 40%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+section.bottom {
+  padding-top: 10px;
+  border-top: 2pX solid
+  rab(255 255 255 / 10%) ;
+  color:
+  rgb(255 255 255 / 40%);
+  font-size: 13px;
+}
+.bottom {
+  text-align: center;
+}
+
+
+/* Footer Responsiveness */
+@media (width > 480px) {
+  section.top ul {
+    padding-right: 10%;
+  }
+}
+
+@media (width > 600px) {
+  footer article {
+    flex-direction: row;
+    min-height: 140px;
+    margin: -70px 20px 20px;
+    padding: 30px 50px 30px;
+  }
+  section.top ul {
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 0;
+  }
 }
 

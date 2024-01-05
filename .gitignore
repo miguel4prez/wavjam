@@ -21,3 +21,56 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+// <div className="recs-card">
+        //   <h1>{name}</h1>
+        //   <p>{location}</p>
+        //   <p>{genre}</p>
+        //   <img src={image} alt={name} />
+        //   <p style={{
+        //     marginTop: "20px"
+        //   }}>{biography}</p>
+        //   <h2>Rating:</h2>
+        //   <Rating name="read-only" value={rating} />
+        // </div>
+
+
+For Flag Emojis
+https://flagsapi.com/#body
+
+
+/* Recommended Card Styles */
+
+.recs-container {
+  background-color: #2F3133;
+  width: stretch;
+  height: auto;
+  padding: 1rem 1rem 1rem;
+  text-align: center;
+}
+.recs-card {
+  background-color: #6D8284;
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 20rem;
+  height: 35rem;
+  margin: 1em 2rem;
+  box-shadow: 3px 4px #1a1e1e;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+.recs-card img {
+  width: 200px;
+
+}
+.recs-card h1,
+.recs-card p,
+.recs-card img {
+  margin: 0.5rem 0; 
+}

@@ -1,0 +1,15 @@
+.artists-page-container {
+  background-color: #1e2021;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#filled-search {
+width: 300px;
+background-color: #414548;
+color: white;
+}
+.artist-page-search {
+  background-color: rgb(45, 43, 43);
+}
