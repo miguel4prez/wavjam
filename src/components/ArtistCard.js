@@ -6,9 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import Saved from "../pages/Saved";
 
-export default function ArtistCard({ name, genre, image, biography, location, country, rating }){
+export default function ArtistCard({ name, genre, image, biography, location, country, rating, id }){
 const [isHeartClicked, setIsHeartClicked] = useState(false);
 const [savedData, setSavedData] = useState([])
 
@@ -33,6 +32,19 @@ function handleClick(){
   })
   .then(res => res.json())
   .then(data => setSavedData(data))
+}
+
+function handleDelete(){
+  const deletedCard = savedData.filter(data => data.id !== savedData.id)
+  setSavedData(deletedCard)
+
+  fetch(`http://localhost:3000/saved_data/${id}`, {
+    method: 'DELETE',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    }
+  })
 }
 
 
@@ -80,7 +92,7 @@ function handleClick(){
           {isHeartClicked ? <FavoriteIcon style={{color: 'red'}} /> : <FavoriteIcon style={{color: 'black'}} />}
         </IconButton>
           
-
+        <button className="danger-btn" onClick={handleDelete}>Delete From Saves</button>
       </CardContent>
   </Card>
 )};   

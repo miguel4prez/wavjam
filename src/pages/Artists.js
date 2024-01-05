@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
 import ArtistCard from '../components/ArtistCard'
+import Footer from '../components/Footer'
 import { TextField } from "@mui/material";
 import '../styles/artists.css'
 
@@ -39,7 +40,7 @@ const filteredSearch = artists.filter(artist => {
         return <ArtistCard key={artist.id} {...artist} />
       })} 
     </div>
-      
+        <Footer />
     </div>
   )
 }

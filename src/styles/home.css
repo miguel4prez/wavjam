@@ -245,6 +245,18 @@ section.bottom {
   text-align: center;
 }
 
+.danger-btn {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(207, 17, 17);
+  cursor: pointer;
+}
+.danger-btn:active {
+  background-color: rgb(170, 13, 13);
+}
+
 
 /* Footer Responsiveness */
 @media (width > 480px) {

@@ -80,7 +80,7 @@ export default function NavBar(){
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/artists'>Artists</NavLink>
         <NavLink to='/producers'>Producers</NavLink>
-        {/* <NavLink to='/saved'>Saved</NavLink> */}
+        <NavLink to='/saved'>Saved</NavLink>
         {/* <NavLink to='/events'>Events</NavLink>
         <NavLink to='/news'>News</NavLink> */}
       </div>
