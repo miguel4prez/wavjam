@@ -1,0 +1,329 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "The Pheonix Within",
+      "genre": "Rock",
+      "image": "https://bloximages.chicago2.vip.townnews.com/qchron.com/content/tncms/assets/v3/editorial/5/7b/57b90b44-d695-5e72-9dc3-323972f02c63/523b096ea621f.image.jpg?resize=760%2C574",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Queens, NY",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Drake",
+      "genre": "Rap",
+      "image": "https://thexplorion.com/wp-content/uploads/2020/09/Drake-1536x1024.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Toronto, Canada",
+      "country": "CA",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "name": "Red Hot Chili Peppers",
+      "genre": "Rock",
+      "image": "http://media.cleveland.com/popmusic_impact/photo/11106940-large.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Los Angeles, CA",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Yame",
+      "genre": "R&B",
+      "image": "https://core.colorsxstudios.com/wp-content/uploads/2023/05/COLORSxSTUDIOS_Announcement_Yame-800x1000.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Paris, France",
+      "country": "FR",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "Ronx",
+      "genre": "Pop-Punk",
+      "image": "https://framethestage.com/wp-content/uploads/2019/12/Ronx.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Bronx, NY",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "Pinegrove",
+      "genre": "Rock",
+      "image": "https://chorus.fm/wp-content/uploads/2016/04/pinegrove.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Montclair, New Jersey",
+      "country": "US",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "name": "Dustin Lynch",
+      "genre": "Country",
+      "image": "https://www.totalntertainment.com/wp-content/uploads/Dustin-Lynch.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Tullahoma, Tennessee",
+      "country": "US",
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "name": "Currents",
+      "genre": "Metalcore",
+      "image": "https://atomsplitterpr.com/wp-content/uploads/2020/04/unnamed-20.png",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Newtown, Conneticut",
+      "country": "US",
+      "rating": 3
+    },
+    {
+      "id": 9,
+      "name": "Noah Kahan",
+      "genre": "Folk-Pop",
+      "image": "https://wp.dailybruin.com/images/2021/09/web.ae_.noahkahan.qa_.A.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Strafford, Vermont",
+      "country": "US",
+      "rating": 4
+    },
+    {
+      "id": 10,
+      "name": "mouse on the keys",
+      "genre": "Mathrock",
+      "image": "https://a-girafe.com/wp-content/uploads/2020/06/motk-fo-scaled.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Tokyo, Japan",
+      "country": "JP",
+      "rating": 5
+    }
+  ],
+  "producers": [
+    {
+      "id": 1,
+      "name": "Nick Mira",
+      "genre": "Trap",
+      "image": "https://www.mp3newswire.net/wp-content/uploads/2021/07/Nick-Mora-1-758x502.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Cranberry Township, Pennsylvania",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Benny Blanco",
+      "genre": "Pop",
+      "image": "https://www.musicinminnesota.com/wp-content/uploads/2022/01/Benny-Blanco-Songwriter-Tiktok.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Reston, Virginia",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Metro Boomin",
+      "genre": "Trap",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/13/13/gettyimages-919773350.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "St. Louis, Missouri",
+      "country": "US",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Swizz Beatz",
+      "genre": "Pop",
+      "image": "https://spiritandfleshmag.com/wordpress/wp-content/uploads/2018/11/Spirit-Flesh-Magazine_Swizz-Beatz_Real_by_Nigel-Parry_07.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Reston, Virginia",
+      "country": "US",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "Tay Keith",
+      "genre": "Trap",
+      "image": "https://img.huffingtonpost.com/asset/5d0d3f542400008c1792d421.jpeg?ops=scalefit_720_noupscale&format=webp",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "St. Louis, Missouri",
+      "country": "US",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "name": "Diplo",
+      "genre": "EDM",
+      "image": "https://runthetrap.com/wp-content/uploads/2020/08/Diplo_16_9_1588264644-1536x851.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Tupelo, Mississippi",
+      "country": "US",
+      "rating": 3
+    },
+    {
+      "id": 7,
+      "name": "Skillex",
+      "genre": "Dubstep",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-130085-skrillex-1-1800-1394478345.jpg?w=858",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Los Angeles, CA",
+      "country": "US",
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "name": "Marshmello",
+      "genre": "Electronic",
+      "image": "https://metro.co.uk/wp-content/uploads/2017/10/marshmallo.jpg?quality=90&strip=all",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Philadelphia, Pennsylvania",
+      "country": "US",
+      "rating": 5
+    }
+  ],
+  "recommended_artists": [
+    {
+      "id": 1,
+      "name": "The Pheonix Within",
+      "genre": "Rock",
+      "image": "https://bloximages.chicago2.vip.townnews.com/qchron.com/content/tncms/assets/v3/editorial/5/7b/57b90b44-d695-5e72-9dc3-323972f02c63/523b096ea621f.image.jpg?resize=760%2C574",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Queens, NY",
+      "country": "US",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Drake",
+      "genre": "Rap",
+      "image": "https://thexplorion.com/wp-content/uploads/2020/09/Drake-1536x1024.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Toronto, Canada",
+      "country": "CA",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "name": "Red Hot Chili Peppers",
+      "genre": "Rock",
+      "image": "http://media.cleveland.com/popmusic_impact/photo/11106940-large.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Los Angeles, CA",
+      "country": "US",
+      "rating": 5
+    }
+  ],
+  "recommended_producers": [
+    {
+      "id": 1,
+      "name": "Nick Mira",
+      "genre": "Trap",
+      "image": "https://www.mp3newswire.net/wp-content/uploads/2021/07/Nick-Mora-1-758x502.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Cranberry Township, Pennsylvania",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Benny Blanco",
+      "genre": "Pop",
+      "image": "https://www.musicinminnesota.com/wp-content/uploads/2022/01/Benny-Blanco-Songwriter-Tiktok.jpg",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "Reston, Virginia",
+      "country": "US",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Metro Boomin",
+      "genre": "Trap",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/13/13/gettyimages-919773350.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
+      "location": "St. Louis, Missouri",
+      "country": "US",
+      "rating": 3
+    }
+  ],
+  "new_members": [
+    {
+      "name": "Hollywood Undead",
+      "location": "Los Angeles, CA",
+      "genre": "Rock",
+      "image": "https://i1.wp.com/genreisdead.com/wp-content/uploads/2018/01/Hollywood-Undead-press-photo-2017-billboard-1548.jpg?resize=800%2C445&ssl=1",
+      "biography": "This is a test...",
+      "country": "US",
+      "rating": 3,
+      "id": 1
+    },
+    {
+      "name": "Peso Pluma",
+      "location": "Jalisco, MX",
+      "genre": "Corridos Tumbado",
+      "image": "https://remezcla.com/wp-content/uploads/2023/05/header-GettyImages-1482325698-1400x1400.jpg",
+      "biography": "My name is Peso Pluma",
+      "country": "MX",
+      "rating": 4,
+      "id": 2
+    },
+    {
+      "name": "Ikimonogakari",
+      "location": "Kanagawa, Japan",
+      "genre": "J-Pop",
+      "image": "http://www.syncmusic.jp/wordpress/wp-content/uploads/2013/04/Ikimono-gakari.jpg",
+      "biography": "Ikimonogakari (いきものがかり) is a Japanese pop rock duo from Kanagawa Prefecture, Japan consisting of Yoshiki Mizuno and Kiyoe Yoshioka. ",
+      "country": "JP",
+      "rating": 5,
+      "id": 3
+    },
+    {
+      "name": "Три дня дождя",
+      "location": "Kyzyl , Tyva ",
+      "genre": "Alternative Rock",
+      "image": "https://salvemusic.com.ua/wp-content/uploads/2021/06/tri-dnya-dozhdya1-1024x536.jpg",
+      "biography": "\" Three Days of Rain \" is a Russian rock band founded in 2019 in Kyzyl , Tyva .",
+      "country": "RU",
+      "rating": 3,
+      "id": 4
+    }
+  ],
+  "saved_data": [
+  ],
+  "pricing": [
+    {
+      "id": 1,
+      "price_name": "Basic",
+      "price": 10,
+      "offers": [
+        "10 User Requests",
+        "3 design accounts",
+        "100 tokens"
+      ]
+    },
+    {
+      "id": 2,
+      "price_name": "Pro",
+      "price": 20,
+      "offers": [
+        "20 User Requests",
+        "10 design accounts",
+        "200 tokens",
+        "candy",
+        "pizza"
+      ]
+    },
+    {
+      "id": 3,
+      "price_name": "Elite",
+      "price": 50,
+      "offers": [
+        "30 User Requests",
+        "30 design accounts",
+        "400 tokens",
+        "more followers"
+      ]
+    }
+  ]
+}
