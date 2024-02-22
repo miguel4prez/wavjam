@@ -1,45 +1,96 @@
-import React, { useEffect, useState } from "react";
-import NavBar from "../components/NavBar";
-import FeaturedUserCard from '../components/FeaturedUserCard'
-import RecArtistsContainer from "../components/RecArtistsContainer";
-import RecProducers from "../components/RecProducers";
+import React from "react";
+import HomeSection from "../components/HomeSection";
 import '../styles/home.css'
-import Footer from "../components/Footer";
+
 import NavImg from '../assets/navbar_img.png'
-import Form from "../components/Form";
+import Logo from '../assets/wavjam_logo.png'
 
-function Home(){
-const [newData, setNewData] = useState([])
-const [recArtists, setRecArtists] = useState([])
-const [recProducers, setRecProducers] = useState([])
+import Collab_Img from '../assets/collab_img.png';
+import Matching_Img from '../assets/matching_img.png';
+import Musician_Img from '../assets/musician_img.png';
 
-useEffect(() => {
-  fetch("http://localhost:3000/recommended_artists")
-  .then(res => res.json())
-  .then(data => setRecArtists(data))
+import Pop_Img from '../assets/pop_img.png'
+import Rap_Img from '../assets/rap_img.png'
+import Punk_Img from '../assets/punk_img.png'
+import Rock_Img from '../assets/rock_img.png'
+import Country_Img from '../assets/country_img.png'
+import Classical_Img from '../assets/classical_img.png'
+import Bachata_Img from '../assets/bachata_img.png'
+import EDM_Img from '../assets/edm_img.png'
 
-  fetch('http://localhost:3000/recommended_producers')
-  .then(res => res.json())
-  .then(data => setRecProducers(data))
+const homeInfoData = [
+  {
+    img: Collab_Img,
+    title: 'Built For Collaboration',
+    description: 'WavJam is meant to make collaboration easy for those new to music and for those who want to expand on their musical taste',
+  },
+  {
+    img: Matching_Img,
+    title: 'Smart Matching Algorithm',
+    description: 'Get your search match based on your personal preferences. If you are looking for something specific, let us do the work for you!',
+  },
+  {
+    img: Musician_Img,
+    title: 'Rent a Musician!',
+    description: 'In need of a musician ASAP? No problem! WavJam offers a section where you can locate a musician near your area and pay them for their time.',
+  },
+];
 
-  fetch('http://localhost:3000/new_members')
-  .then(res => res.json())
-  .then(data => setNewData(data))
-}, [])
+const popularGenresData = [
+  { img: Pop_Img, genre: 'Pop' },
+  { img: Rap_Img, genre: 'Rap' },
+  { img: Punk_Img, genre: 'Punk' },
+  { img: Rock_Img, genre: 'Rock' },
+  { img: Country_Img, genre: 'Country' },
+  { img: Classical_Img, genre: 'Classical' },
+  { img: Bachata_Img, genre: 'Bachata' },
+  { img: EDM_Img, genre: 'EDM' },
+];
 
+function Home() {
   return (
     <div>
-      <NavBar />
-      <div>
-        <img src={NavImg} alt="front-page" style={{width: "100%"}}/>
+      <div className="hero">
+        <img src={NavImg} alt="front-page" className="home-hero-img" />
+        <img src={Logo} alt='wavjam-logo' className='home-wavjam-logo' />
       </div>
-      <FeaturedUserCard />
-      <RecArtistsContainer recArtists={recArtists} />
-      <RecProducers recProducers={recProducers} />
-      <Form newData={newData} setNewData={setNewData} />
-      <Footer />
+
+      <section className="home-info-sec">
+        <div className="home-info-container">
+          {homeInfoData.map((info, index) => (
+            <HomeSection key={index} img={info.img} title={info.title} description={info.description} />
+          ))}
+        </div>
+      </section>
+
+      <section className="home-find-wav-sec">
+          <div className="home-find-wav-container">
+            <h1>Find Your <span>Wav</span></h1>
+            <div>
+              <h2>Collaborate</h2>
+              <h2>Join a Band</h2>
+              <h2>Find Members</h2>
+              <h2>Rent A Musician</h2>
+              <h2>Engineers/Producers</h2>
+              <h2>Visuals</h2>
+            </div>
+          </div>
+      </section>
+
+      <section className="popular-genres-sec">
+        <h1>Popular Genres</h1>
+        <div className='popular-genres-container'>
+          {popularGenresData.map((genre, index) => (
+            <div key={index}>
+              <img src={genre.img} alt={genre.genre} />
+              <p>{genre.genre}</p>
+            </div>
+          ))}
+        </div>
+        <button>See All</button>
+      </section>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

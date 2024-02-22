@@ -1,0 +1,85 @@
+/* Global CSS */
+
+select {
+  cursor: pointer;
+}
+
+/* Main Search */
+.search-page {
+  background: linear-gradient(90deg, #20294a, #320037);
+  padding: 50px 0;
+}
+.search-page h1 {
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+}
+.search-page hr {
+  margin: 40px auto;
+  width: 50%;
+  border: solid 1px #8C52FF;
+}
+.search-container {
+  width: 1250px;
+  margin: 0 auto;
+}
+.text-search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.search-container input[type='text'] {
+  background-color: #ECE8E6;
+  border: none;
+  width: 500px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.search-filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.sort-search {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.sort-search p {
+  font-weight: 400;
+  color: #B7B7B8;
+}
+.sort-search select,
+.search-filter-buttons select {
+  background-color: #2F3133;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+.search-filter-buttons button {
+  background-color: #8C52FF;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
+.user-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+div .no-artist-match {
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+.user-card hr {
+  margin: 10px auto;
+  border: solid 1px #B7B7B8;
+}

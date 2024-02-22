@@ -36,11 +36,14 @@ h4{
 .nav-container {
   padding: 0
 }
+.hero {
+  max-height: 700px;
+
+}
 .nav-top {
   display: flex;
   align-items: center;
-  background-color: #2F3133;
-  justify-content: space-between;
+  background-color: #2F3133;  justify-content: space-evenly;
   padding: 10px 0;
 }
 .nav-left {
@@ -48,12 +51,18 @@ h4{
   align-items: center;
   margin-left: 60px;
 }
-.nav-left input{
+.nav-left input {
   margin-left: 30px;
-  width: 350px;
+  width: 300px;
+  border: solid 1px black;
+  background-color: transparent;
+  color: white;
+}
+.nav-left input:focus {
+  outline: none;
 }
 .nav-right {
-  margin-right: 30px;
+  /* margin-right: 50px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,105 +92,155 @@ h4{
   color: #6D8284;
 }
 
-/* Featured User Card Styles */
+.notification-container {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 130%;
+  right: 70%;
+  width: 300px;
+  height: 400px;
+  z-index: 1;
+}
+.notification-container h1{
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+}
+.notification-container ul li {
+  list-style: none;
+  padding: 10px;
+}
 
-.featured-section {
-  padding: 10px 0 30px 0;
+#file-upload-form {
+  background-color: white;
+  position: absolute;
+  top: 8%;
+  right: 23%;
+  z-index: 1;
+  padding: 10px;
+  text-align: center;
 }
-.featured-card-container {
+
+.login-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+
+/* Home Section */
+
+
+/* home hero */
+.home-wavjam-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.home-hero-img {
+  width: 100%;
+  max-height: 700px
+}
+.home-info-sec {
+  background-color: #20294A;
+  padding: 90px 0;
+}
+.home-info-container{
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 20px 0 0 0;
   text-align: center;
 }
-.inside-featured-card {
-  height: 500px;
+.home-info-container div {
   width: 400px;
-  text-align: center;
-  padding: 40px 10px 0 10px;
-  background-color: #6D8284;
-  color: white;
-  margin: 0 0 100px 0;
-  box-shadow: 3px 4px #1a1e1e;
-  border: grey solid 1px;
 }
-.inside-featured-card img {
-  width: 230px;
-}
-.inside-featured-card img,
-.inside-featured-card p,
-.inside-featured-card h1 {
+.home-info-container img {
+  border-radius: 50%;
   margin-bottom: 20px;
 }
-
-/* Recommended Card Styles */
-.recs-container {
+.home-info-container div h1 {
+  color: #DEE15D;
   text-align: center;
-  padding: 15px 0;
-}
-
-.recs-card {
-  text-align: center;
-  display: inline-block;
-  margin: 10px;
-}
-
-/* Form Section Styling */
-.form-container {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  display: block;
-  text-align: center;
-}
-.form-container h1{
   margin-bottom: 10px;
 }
-.form-container form {
-  display: inline-block;
-  width: 400px;
-  height: 300px;
-  margin: 10px;
+.home-info-container div p {
+  color: #8C52FF;
   text-align: center;
 }
-input {
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
+.home-find-wav-sec {
+  background: linear-gradient(90deg, #20294a, #320037);
+  padding: 50px 0;
 }
-#form-name,
-#form-description,
-#form-genre,
-#form-image,
-#form-location,
-#form-description,
-#form-rating,
-#form-flag {
-  margin: 5px;
-  display: block;
-  width: 100%;
+.home-find-wav-container h1 {
+  color: #DEE15D;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
 }
-#form-description {
-  border-radius: 10px;
-  padding: 10px;
-  max-width: 400px;
+.home-find-wav-container h1 span {
+  color: #8C52FF;
+  font-style: italic;
 }
-.form-container button {
-  padding: 10px;
-  width: 50%;
-  margin-top: 10px;
-  border-radius: 10px;
-  border: none;
-  background-color: #1D1D1D;
+.home-find-wav-container div {
   color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.form-container button:hover {
-  border: solid 1px white;
-  background-color: transparent;
-  color: white;
+.home-find-wav-container h2 {
+  width: max-content; 
+  font-size: 25px;
+  text-align: center;
+  margin: 20px auto;
+}
+.home-find-wav-container h2:hover {
+  color: #8C52FF;
   cursor: pointer;
 }
+.popular-genres-sec {
+  background: radial-gradient(circle at 0% 0%, #20294a, #947497);
+  padding: 50px;
+}
+.popular-genres-sec h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.popular-genres-sec button {
+  display: block; 
+  margin: 20px auto; 
+  background-color: #ffffff; 
+  color: black; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+.popular-genres-sec button:hover {
+  background-color: #8C52FF;
+  color: white;
+}
+
+.popular-genres-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.popular-genres-container div {
+  display: inline-block;
+  margin: 20px;
+}
+.popular-genres-container div img {
+  max-width: 250px;
+  border-radius: 15px;
+}
+.popular-genres-container div {
+  color: white;
+  text-align: center;
+}
+
 
 /* Footer Section Styling */
 footer {

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Footer(){
   return (
@@ -7,25 +8,24 @@ export default function Footer(){
         <ul>
           <li>
             <h3>WavJam</h3>
-            <a>About Us</a>
-            <a>Press & News</a>
-            <a>Sponsors</a>
-            <a>Merch</a>
-            <a>Events</a>
-            <a>Blog</a>
-            <a>Terms & Privacy</a>
+            <NavLink to="/about-us">About Us</NavLink>
+            <NavLink to='/press&news'>Press & News</NavLink>
+            <NavLink to='/sponsors'>Sponsors</NavLink>
+            <NavLink to='/merch'>Merch</NavLink>
+            <NavLink to='/events'>Events</NavLink>
+            <NavLink to='/blog'>Blog</NavLink>
+            <NavLink to='/terms&privacy'>Terms & Privacy</NavLink>
           </li>
           <li>
             <h3>Support</h3>
-            <a>Pricing</a>
-            <a>Copyright Complaint</a>
-            <a>Trust & Saftey</a>
-            <a>Contact Us</a>
+            <NavLink to='/pricing'>Pricing</NavLink>
+            <NavLink to='/copyright'>Copyright Complaint</NavLink>
+            <NavLink to='/contact-us'>Contact Us</NavLink>
           </li>
           <li>
             <h3>Community</h3>
-            <a>Forum</a>
-            <a>Artists Near Me</a>
+            <NavLink to='/forum'>Forum</NavLink>
+            <NavLink to='/artists-near-me'>Artists Near Me</NavLink>
           </li>
           <li>
             <h3>Social Media</h3>

@@ -1,0 +1,19 @@
+.card-media-sec {
+  margin-top: 10px;
+}
+
+.card-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seek-wrapper {
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
+.song-seek {
+  background-color: #8C52FF;
+  width: 100%;
+  height: 5px;
+}

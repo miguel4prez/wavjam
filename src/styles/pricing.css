@@ -1,0 +1,30 @@
+.single-card {
+  padding: 20px;
+  margin: 25px;
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+}
+.single-card .price-list,
+.single-card .price,
+.single-card button {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.single-card li {
+  margin-bottom: 12px;
+}
+.single-card button {
+  background-color: rgb(200, 59, 200);
+  color: rgb(255, 251, 251);
+  text-align: center;
+}
+.single-card button:hover {
+  background-color: rgb(112, 36, 253);
+  color: rgb(255, 251, 251)
+}
