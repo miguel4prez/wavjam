@@ -8,7 +8,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Queens, NY",
       "country": "US",
-      "rating": 5
+      "type": "Band",
+      "tags": [
+        "Emo",
+        "Facemelter"
+      ],
+      "song_data" : [
+        {
+          "title": "Abuso",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 2,
@@ -18,7 +28,16 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Toronto, Canada",
       "country": "CA",
-      "rating": 3
+      "type": "Artist",
+      "tags": [
+        "MGK"
+      ],
+      "song_data" : [
+        {
+          "title": "Take Care",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 3,
@@ -28,7 +47,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Los Angeles, CA",
       "country": "US",
-      "rating": 5
+      "type": "Band",
+      "tags": [
+        "Emo",
+        "Facemelter"
+      ],
+      "song_data" : [
+        {
+          "title": "Californication",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 4,
@@ -38,7 +67,16 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Paris, France",
       "country": "FR",
-      "rating": 4
+      "type": "Artist",
+      "tags": [
+        "MGK"
+      ],
+      "song_data" : [
+        {
+          "title": "Becane",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 5,
@@ -48,7 +86,18 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Bronx, NY",
       "country": "US",
-      "rating": 5
+      "type": "Band",
+      "tags" : [
+        "MGK",
+        "Blink182",
+        "Suecio"
+      ],
+      "song_data" : [
+        {
+          "title": "Roses",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 6,
@@ -58,7 +107,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Montclair, New Jersey",
       "country": "US",
-      "rating": 4
+      "type": "Band",
+      "tags": [
+        "Emo",
+        "Facemelter"
+      ],
+      "song_data" : [
+        {
+          "title": "Need 2",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 7,
@@ -68,7 +127,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Tullahoma, Tennessee",
       "country": "US",
-      "rating": 3
+      "type": "Musician",
+      "tags": [
+        "MGK",
+        "Lil Uzi Vert"
+      ],
+      "song_data" : [
+        {
+          "title": "Thinking 'Bout You",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 8,
@@ -78,7 +147,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Newtown, Conneticut",
       "country": "US",
-      "rating": 3
+      "type": "Band",
+      "tags": [
+        "Emo",
+        "Facemelter"
+      ],
+      "song_data" : [
+        {
+          "title": "Better Days",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 9,
@@ -88,7 +167,16 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Strafford, Vermont",
       "country": "US",
-      "rating": 4
+      "type": "Musician",
+      "tags": [
+        "Emo"
+      ],
+      "song_data" : [
+        {
+          "title": "Dial Drunk",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     },
     {
       "id": 10,
@@ -98,7 +186,16 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Tokyo, Japan",
       "country": "JP",
-      "rating": 5
+      "type": "Band",
+      "tags": [
+        "Facemelter"
+      ],
+      "song_data" : [
+        {
+          "title": "aom",
+          "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ]
     }
   ],
   "producers": [
@@ -289,8 +386,7 @@
       "id": 4
     }
   ],
-  "saved_data": [
-  ],
+  "saved_data": [],
   "pricing": [
     {
       "id": 1,
