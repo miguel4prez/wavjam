@@ -1,109 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,400&display=swap');
-
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
+.profile-sec {
+  background: radial-gradient(circle at 0% 0%, #20294a, #947497);
+  padding: 20px 0;
 }
-
-/* body {
-  background-color: #6D8284;
+.profile-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+/* .profile-container div {
+  background-color: #20294A;
+  border-radius: 20px;
 } */
-
-h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-}
-h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-}
-h4{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-}
-
-/* Container Styles*/
-.top-profile-container{
-  display: flex;
-  justify-content: space-evenly;
+.top-of-profile {
+  width: 100%;
   padding: 20px;
+  background-color: #20294A;
+  border-radius: 20px;
 }
-.profile-container h1 {
-  text-align: center;
-  margin-top: 30px;
+.social-icons {
+  display: flex;
+  justify-content: end;
+  color: white;
 }
-.info-section {
-  text-align: center;
+.profile-img-and-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
-.info-section img {
-  width: 300px;
+.profile-img-and-info img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 0 30px;
 }
-.bio-section {
-  width: 600px;
+/* .profile-top-info {
   display: grid;
-  grid-template-rows: 6fr 1fr;
+  grid-template-rows: repeat(3, 5fr);
+  gap: 5px;
+} */
+.profile-top-info h1 {
+  font-size: 35px;
+}
+.profile-top-info h1,
+.profile-top-info h4, 
+.about-me-sec h1 {
+  color: #DEE15D;
+}
+.profile-top-info p,
+.profile-type {
+  color: #C6C3C3;
+  font-style: italic;
+  font-weight: 400;
+}
+.profile-top-buttons {
+  display: flex;
+  justify-content: end;
   align-items: center;
+  margin-right: 10px;
+  gap: 15px;
 }
-.bio-section p {
-  font-size: 16px;
+.profile-top-buttons button {
+  padding: 10px 20px;
+  border: none;
 }
-.bio-section h3 {
-  text-align: center;
+.follow-btn {
+  background-color: #8C52FF;
+  color: white
 }
-.rate-icon-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5px;
-}
-.rating {
-  display: inline-block;
-  max-width: 100%;
-}
-.icons {
-  display: inline-block;
-  max-width: 100%;
-  display: flex;
-}
-.ig-icon,
-.fb-icon,
-.yt-icon,
-.share-icon {
-  color: #414548;
-  margin-right: 5px;
-  cursor: pointer;
+.message-btn {
+  background-color: #C6C6C6;
 }
 
-/*  Album Cards */
-.album-cards {
-  padding: 15px;
-}
-.card img {
-  width: 150px;
-}
-.card {
-  display: inline-block;
-}
-.card p {
-  text-align: center;
+.profile-mid-section {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
 }
 
-/* Review Section Styles */
-.review-section {
+
+.about-me-sec {
+  width: 40%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #20294A;
+  border-radius: 20px;
+}
+.about-me-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.about-me-container h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-me-sec hr {
+  margin: 10px auto;
+  width: 50%;
+  border: 1px solid #969393;
+}
+.about-me-sec article {
+  margin: 40px auto;
+  width: 85%;
+  color: #8C52FF;
+  font-weight: 500;
+}
+.profile-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+.profile-tags p {
+  display: inline-block;
+  width: max-content;
+  border-radius: 20px;
+  color: white;
+  background-color: #8C52FF;
+  padding: 10px 20px;
+  text-align: center;
+}
+.profile-posts-sec {
+  width: 50%;
+  margin: 20px 0;
+  text-align: center;
+  padding: 0 0 50px 0;
+  background-color: #20294A;
+  border-radius: 20px;
+  height: max-content;
+}
+.profile-posts-container h1 {
+  color: #DEE15D;
+  font-size: 35px;
+  background-color: #2f3133;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 0;
+}
+.tracks-section {
   margin-top: 40px;
-  padding: 15px;
 }
-.review-section p {
-  display: inline-block;
-  font-size: 15px;
-}
-.star-review {
-  display: flex;
-  align-items: center;
+.tracks-section h1 {
+  font-size: 50px;
 }

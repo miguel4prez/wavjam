@@ -1,0 +1,35 @@
+/* displayposts.css */
+
+.display-posts {
+  max-height: 400px; /* Set a maximum height for the feed container */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.display-posts-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.display-posts-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.display-posts-container p {
+  margin: 0;
+  color: white;
+}
+
+.post-time {
+  color: #888;
+  margin: 5px 20px 0 0;
+  text-align: end;
+}
+
+hr {
+  margin: 10px 0;
+  border: 0.5px solid #ddd;
+}

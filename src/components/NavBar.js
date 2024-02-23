@@ -166,7 +166,7 @@ export default function NavBar(){
 
       <div className="nav-headers">
         <NavLink to='/'>Home</NavLink>
-        {/* <NavLink to='/about-us'>About us</NavLink> */}
+        <NavLink to='/profile'>Profile</NavLink>
         {/* <NavLink to='/producers'>Forum</NavLink> */}
         {/* <NavLink to='/events'>Events</NavLink> */}
         {/* <NavLink to='/news'>News</NavLink> */}

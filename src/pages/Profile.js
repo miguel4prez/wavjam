@@ -1,63 +1,89 @@
-// import React from "react";
+import React from "react";
+import VerifiedIcon from '@mui/icons-material/Verified';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import IosShareIcon from '@mui/icons-material/IosShare';
+import DisplayPosts from "../components/DisplayPost";
+import SongCard from "../components/SongCard";
+import '../styles/profile.css';
 
-// import NavBar from "../components/NavBar";
-// import VerifiedIcon from '@mui/icons-material/Verified';
-// import Rating from '@mui/material/Rating';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
-// import IosShareIcon from '@mui/icons-material/IosShare';
-// import '../styles/profile.css';
+export default function Profile(){
 
-// export default function Profile(){
+  return (
+    <section className="profile-sec">
+      <div className="profile-container">
 
-//   return (
-//     <>
-//       <NavBar />
-//       <div className="profile-container">
-//         <h1>FUTURE <VerifiedIcon fontSize="medium" style={{color: "#50ACE4"}} /></h1>
-//         <div className="top-profile-container">
-//             <div className="info-section">
-//               <h2>Hollywood, CA</h2>
-//               <img src="https://www.gistreel.com/wp-content/uploads/2019/12/future-spotify-mixup1566726034.jpg" alt="rapper" />
+        <div className="top-of-profile">
+          <div className="social-icons">
+            <InstagramIcon />
+            <FacebookIcon />
+            <YouTubeIcon />
+            <IosShareIcon />
+          </div>
 
-//               <div className="rate-icon-container">
-//                 <div className="rating">
-//                   <Rating name="read-only" value={3} />
-//                 </div>
-//                 <div className="icons">
-//                   <InstagramIcon className="ig-icon" />
-//                   <FacebookIcon className="fb-icon"/>
-//                   <YouTubeIcon className="yt-icon" />
-//                   <IosShareIcon className="share-icon" />
-//                 </div>
-//               </div>
-//             </div>
+          <div className="profile-img-and-info">
+            <img src='https://framethestage.com/wp-content/uploads/2019/12/Ronx.jpg'/>
+            <div className="profile-top-info">
+              <h1>RONX</h1>
+              <p>1.6k Followers</p>
+              <h4>Hollywoord, CA</h4>
+            </div>
+          </div>
 
-//             <div className="bio-section">
-//               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-//                 Dui sapien eget mi proin sed libero enim sed. Orci eu lobortis elementum nibh tellus molestie nunc non. Etiam tempor orci eu lobortis 
-//                 elementum nibh tellus molestie nunc. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. 
-//                 Massa sed elementum tempus egestas sed sed risus pretium quam. Cursus in hac habitasse platea. 
-//                 Integer eget aliquet nibh praesent tristique magna sit. Commodo sed ege.</p>
-//                 <h3>Price: $400 (Negotiable)</h3>
-//             </div>
-//         </div>
+          <div className="profile-top-buttons">
+            <button className="follow-btn">Follow</button>
+            <button className="message-btn">Message</button>
+          </div>
+        </div>
 
-//           <h2 style={{fontSize: '25px', padding: '0 15px'}}>Tracks</h2>
-//           <AlbumCards />
-//           <h2 style={{fontSize: '25px', padding: '0 15px'}}>Recent Collabs</h2>
-//           <AlbumCards />
+        <div className="profile-mid-section">
 
-//         <div className="review-section">
-//         <h2>Reviews</h2>
-//           <div className="star-review">
-//             <p>2 Reviews</p> <Rating name="read-only" value={3} />
-//           </div>
-          
-//         </div>
+          <div className="about-me-sec">
+            <div className="about-me-container">
+              <h1>About Me</h1>
+              <hr />
+              <p className="profile-type">Band</p>
+              <article>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Dui sapien eget mi proin sed libero enim sed. Orci eu lobortis 
+              elementum nibh tellus molestie nunc non. Etiam tempor orci eu 
+              lobortis elementum nibh tellus molestie nunc. Nisl condimentum id 
+              venenatis a condimentum vitae sapien pellentesque habitant. 
+              Massa sed elementum tempus egestas sed sed risus pretium quam. 
+              Cursus in hac habitasse platea. Integer eget aliquet nibh praesent 
+              tristique magna sit. Commodo sed ege.
+              </article>
 
-//       </div>
-//     </>
-//   )
-// }
+              <hr />
+
+              <h2>Inspired By</h2>
+              <div className='profile-tags'>
+                <p>Blink 182</p>
+                <p>MCR</p>
+                <p>Neck Deep</p>
+                <p>The Story So Far</p>
+                <p>Fall Out Boy</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="profile-posts-sec">
+            <div className="profile-posts-container">
+              <h1>POSTS</h1>
+              <DisplayPosts />
+            </div>
+          </div>
+      </div>
+
+      <div className="tracks-section">
+        <h1>Tracks</h1>
+        <SongCard />
+      </div>
+      
+      </div>
+    </section>
+  )
+}
