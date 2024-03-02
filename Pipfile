@@ -10,6 +10,9 @@ faker = "*"
 sqlalchemy-serializer = "*"
 flask-migrate = "*"
 flask-validates = "*"
+flask-bcrypt = "*"
+flask-cors = "*"
+datetime = "*"
 
 [dev-packages]
 

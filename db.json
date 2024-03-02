@@ -1,8 +1,8 @@
 {
-  "artists": [
+  "users": [
     {
       "id": 1,
-      "name": "The Pheonix Within",
+      "username": "The Pheonix Within",
       "genre": "Rock",
       "image": "https://bloximages.chicago2.vip.townnews.com/qchron.com/content/tncms/assets/v3/editorial/5/7b/57b90b44-d695-5e72-9dc3-323972f02c63/523b096ea621f.image.jpg?resize=760%2C574",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -13,16 +13,29 @@
         "Emo",
         "Facemelter"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Abuso",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "description": "Book club meeting",
+          "time_posted": "30 mins ago",
+          "details": [
+            "Discussing 'The Great Gatsby'",
+            "New members welcome",
+            "BYOB (Bring Your Own Book)",
+            "Location: Local coffee shop"
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "name": "Drake",
+      "username": "Drake",
       "genre": "Rap",
       "image": "https://thexplorion.com/wp-content/uploads/2020/09/Drake-1536x1024.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -32,16 +45,29 @@
       "tags": [
         "MGK"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Take Care",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 2,
+          "description": "This is a test",
+          "time_posted": "10 mins ago",
+          "details": [
+            "Must be 21+",
+            "Need to have a car",
+            "Must be from the Chicago area",
+            "Must Have a good sense of humor"
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "name": "Red Hot Chili Peppers",
+      "username": "Red Hot Chili Peppers",
       "genre": "Rock",
       "image": "http://media.cleveland.com/popmusic_impact/photo/11106940-large.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -52,16 +78,29 @@
         "Emo",
         "Facemelter"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Californication",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 3,
+          "description": "Looking for a roommate",
+          "time_posted": "1 hour ago",
+          "details": [
+            "Must be pet-friendly",
+            "No smoking allowed",
+            "Must be tidy and organized",
+            "Preferably a morning person"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "name": "Yame",
+      "username": "Yame",
       "genre": "R&B",
       "image": "https://core.colorsxstudios.com/wp-content/uploads/2023/05/COLORSxSTUDIOS_Announcement_Yame-800x1000.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -71,37 +110,63 @@
       "tags": [
         "MGK"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Becane",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 4,
+          "description": "Hiking group meetup",
+          "time_posted": "2 days ago",
+          "details": [
+            "All skill levels welcome",
+            "Bring your own snacks",
+            "Meeting point: City Park",
+            "Rain or shine event"
+          ]
         }
       ]
     },
     {
       "id": 5,
-      "name": "Ronx",
+      "username": "Ronx",
       "genre": "Pop-Punk",
       "image": "https://framethestage.com/wp-content/uploads/2019/12/Ronx.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
       "location": "Bronx, NY",
       "country": "US",
       "type": "Band",
-      "tags" : [
+      "tags": [
         "MGK",
         "Blink182",
         "Suecio"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Roses",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 5,
+          "description": "Running group",
+          "time_posted": "2s ago",
+          "details": [
+            "Morning runs on weekdays",
+            "Meeting point: Central Park",
+            "All fitness levels encouraged",
+            "Bring your own water bottle"
+          ]
         }
       ]
     },
     {
       "id": 6,
-      "name": "Pinegrove",
+      "username": "Pinegrove",
       "genre": "Rock",
       "image": "https://chorus.fm/wp-content/uploads/2016/04/pinegrove.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -112,16 +177,29 @@
         "Emo",
         "Facemelter"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Need 2",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 6,
+          "description": "Anyone need a photographer?",
+          "time_posted": "57 mins ago",
+          "details": [
+            "Musicians wanted",
+            "Genre: Indie rock",
+            "Location: Basement Studio",
+            "BYOI (Bring Your Own Instrument)"
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "name": "Dustin Lynch",
+      "username": "Dustin Lynch",
       "genre": "Country",
       "image": "https://www.totalntertainment.com/wp-content/uploads/Dustin-Lynch.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -132,16 +210,29 @@
         "MGK",
         "Lil Uzi Vert"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Thinking 'Bout You",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 7,
+          "description": "Coding meetup",
+          "time_posted": "40 mins ago",
+          "details": [
+            "Open to all programming languages",
+            "Bring your laptop",
+            "Location: Tech Hub",
+            "Networking opportunities"
+          ]
         }
       ]
     },
     {
       "id": 8,
-      "name": "Currents",
+      "username": "Currents",
       "genre": "Metalcore",
       "image": "https://atomsplitterpr.com/wp-content/uploads/2020/04/unnamed-20.png",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -152,16 +243,29 @@
         "Emo",
         "Facemelter"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Better Days",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 8,
+          "description": "Cooking class",
+          "time_posted": "40 mins ago",
+          "details": [
+            "Cuisine: Italian",
+            "Limited spots available",
+            "Location: Culinary School",
+            "Ingredients provided"
+          ]
         }
       ]
     },
     {
       "id": 9,
-      "name": "Noah Kahan",
+      "username": "Noah Kahan",
       "genre": "Folk-Pop",
       "image": "https://wp.dailybruin.com/images/2021/09/web.ae_.noahkahan.qa_.A.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -171,16 +275,29 @@
       "tags": [
         "Emo"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "Dial Drunk",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
+        }
+      ],
+      "posts": [
+        {
+          "id": 9,
+          "description": "Painting workshop",
+          "time_posted": "30 mins ago",
+          "details": [
+            "No experience required",
+            "All art supplies provided",
+            "Location: Art Studio",
+            "Guided session by local artist"
+          ]
         }
       ]
     },
     {
       "id": 10,
-      "name": "mouse on the keys",
+      "username": "mouse on the keys",
       "genre": "Mathrock",
       "image": "https://a-girafe.com/wp-content/uploads/2020/06/motk-fo-scaled.jpg",
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
@@ -190,203 +307,59 @@
       "tags": [
         "Facemelter"
       ],
-      "song_data" : [
+      "song_data": [
         {
           "title": "aom",
           "song_url": "https://www.computerhope.com/jargon/m/example.mp3"
         }
+      ],
+      "posts": [
+        {
+          "id": 10,
+          "description": "Online gaming night",
+          "time_posted": "10 mins ago",
+          "details": [
+            "Platform: PC",
+            "Game: Among Us",
+            "Time: 7:00 PM - 10:00 PM",
+            "Discord server link provided"
+          ]
+        }
       ]
     }
   ],
-  "producers": [
+  "saved_data": [
     {
-      "id": 1,
-      "name": "Nick Mira",
-      "genre": "Trap",
-      "image": "https://www.mp3newswire.net/wp-content/uploads/2021/07/Nick-Mora-1-758x502.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Cranberry Township, Pennsylvania",
-      "country": "US",
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "name": "Benny Blanco",
-      "genre": "Pop",
-      "image": "https://www.musicinminnesota.com/wp-content/uploads/2022/01/Benny-Blanco-Songwriter-Tiktok.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Reston, Virginia",
-      "country": "US",
-      "rating": 5
-    },
-    {
-      "id": 3,
-      "name": "Metro Boomin",
-      "genre": "Trap",
-      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/13/13/gettyimages-919773350.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "St. Louis, Missouri",
-      "country": "US",
-      "rating": 3
-    },
-    {
-      "id": 4,
-      "name": "Swizz Beatz",
-      "genre": "Pop",
-      "image": "https://spiritandfleshmag.com/wordpress/wp-content/uploads/2018/11/Spirit-Flesh-Magazine_Swizz-Beatz_Real_by_Nigel-Parry_07.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Reston, Virginia",
-      "country": "US",
-      "rating": 4
-    },
-    {
-      "id": 5,
-      "name": "Tay Keith",
-      "genre": "Trap",
-      "image": "https://img.huffingtonpost.com/asset/5d0d3f542400008c1792d421.jpeg?ops=scalefit_720_noupscale&format=webp",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "St. Louis, Missouri",
-      "country": "US",
-      "rating": 4
-    },
-    {
-      "id": 6,
-      "name": "Diplo",
-      "genre": "EDM",
-      "image": "https://runthetrap.com/wp-content/uploads/2020/08/Diplo_16_9_1588264644-1536x851.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Tupelo, Mississippi",
-      "country": "US",
-      "rating": 3
-    },
-    {
-      "id": 7,
-      "name": "Skillex",
-      "genre": "Dubstep",
-      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-130085-skrillex-1-1800-1394478345.jpg?w=858",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Los Angeles, CA",
-      "country": "US",
-      "rating": 3
-    },
-    {
-      "id": 8,
-      "name": "Marshmello",
-      "genre": "Electronic",
-      "image": "https://metro.co.uk/wp-content/uploads/2017/10/marshmallo.jpg?quality=90&strip=all",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Philadelphia, Pennsylvania",
-      "country": "US",
-      "rating": 5
-    }
-  ],
-  "recommended_artists": [
-    {
-      "id": 1,
-      "name": "The Pheonix Within",
-      "genre": "Rock",
-      "image": "https://bloximages.chicago2.vip.townnews.com/qchron.com/content/tncms/assets/v3/editorial/5/7b/57b90b44-d695-5e72-9dc3-323972f02c63/523b096ea621f.image.jpg?resize=760%2C574",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Queens, NY",
-      "country": "US",
-      "rating": 4
-    },
-    {
-      "id": 2,
-      "name": "Drake",
-      "genre": "Rap",
-      "image": "https://thexplorion.com/wp-content/uploads/2020/09/Drake-1536x1024.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Toronto, Canada",
-      "country": "CA",
-      "rating": 3
-    },
-    {
-      "id": 3,
-      "name": "Red Hot Chili Peppers",
-      "genre": "Rock",
-      "image": "http://media.cleveland.com/popmusic_impact/photo/11106940-large.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Los Angeles, CA",
-      "country": "US",
-      "rating": 5
-    }
-  ],
-  "recommended_producers": [
-    {
-      "id": 1,
-      "name": "Nick Mira",
-      "genre": "Trap",
-      "image": "https://www.mp3newswire.net/wp-content/uploads/2021/07/Nick-Mora-1-758x502.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Cranberry Township, Pennsylvania",
-      "country": "US",
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "name": "Benny Blanco",
-      "genre": "Pop",
-      "image": "https://www.musicinminnesota.com/wp-content/uploads/2022/01/Benny-Blanco-Songwriter-Tiktok.jpg",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "Reston, Virginia",
-      "country": "US",
-      "rating": 5
-    },
-    {
-      "id": 3,
-      "name": "Metro Boomin",
-      "genre": "Trap",
-      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/13/13/gettyimages-919773350.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus sit amet dictum sit amet justo. Magna eget est lorem ipsum dolor sit. Semper viverra nam libero justo laoreet sit.",
-      "location": "St. Louis, Missouri",
-      "country": "US",
-      "rating": 3
-    }
-  ],
-  "new_members": [
-    {
-      "name": "Hollywood Undead",
-      "location": "Los Angeles, CA",
-      "genre": "Rock",
-      "image": "https://i1.wp.com/genreisdead.com/wp-content/uploads/2018/01/Hollywood-Undead-press-photo-2017-billboard-1548.jpg?resize=800%2C445&ssl=1",
-      "biography": "This is a test...",
-      "country": "US",
-      "rating": 3,
+      "description": "This is a test",
+      "details": "Testttttttt",
       "id": 1
     },
     {
-      "name": "Peso Pluma",
-      "location": "Jalisco, MX",
-      "genre": "Corridos Tumbado",
-      "image": "https://remezcla.com/wp-content/uploads/2023/05/header-GettyImages-1482325698-1400x1400.jpg",
-      "biography": "My name is Peso Pluma",
-      "country": "MX",
-      "rating": 4,
+      "description": "This is a test",
+      "details": "Testttttttt",
       "id": 2
     },
     {
-      "name": "Ikimonogakari",
-      "location": "Kanagawa, Japan",
-      "genre": "J-Pop",
-      "image": "http://www.syncmusic.jp/wordpress/wp-content/uploads/2013/04/Ikimono-gakari.jpg",
-      "biography": "Ikimonogakari (いきものがかり) is a Japanese pop rock duo from Kanagawa Prefecture, Japan consisting of Yoshiki Mizuno and Kiyoe Yoshioka. ",
-      "country": "JP",
-      "rating": 5,
+      "description": "This is a test",
+      "details": "Testttttttt",
       "id": 3
     },
     {
-      "name": "Три дня дождя",
-      "location": "Kyzyl , Tyva ",
-      "genre": "Alternative Rock",
-      "image": "https://salvemusic.com.ua/wp-content/uploads/2021/06/tri-dnya-dozhdya1-1024x536.jpg",
-      "biography": "\" Three Days of Rain \" is a Russian rock band founded in 2019 in Kyzyl , Tyva .",
-      "country": "RU",
-      "rating": 3,
+      "description": "afaf",
+      "details": "asfada",
       "id": 4
+    },
+    {
+      "description": "afaf",
+      "details": "dgsdgs",
+      "id": 5
+    },
+    {
+      "description": "afga",
+      "details": "sgfsdf",
+      "id": 6
     }
   ],
-  "saved_data": [],
   "pricing": [
     {
       "id": 1,
@@ -419,6 +392,195 @@
         "30 design accounts",
         "400 tokens",
         "more followers"
+      ]
+    }
+  ],
+  "bulletin_posts": [
+    {
+      "id": 1,
+      "username": "pinegrove",
+      "description": "This is a test",
+      "genre": "Pop",
+      "type": "Band",
+      "country": "US",
+      "time_posted": "10 mins ago",
+      "tags": [
+        "MGK",
+        "Blink182",
+        "Suecio"
+      ],
+      "details": [
+        "Must be 21+",
+        "Need to have a car",
+        "Must be from the Chicago area",
+        "Must Have a good sense of humor"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "oceanwaves",
+      "description": "Looking for a roommate",
+      "genre": "Pop",
+      "type": "Band",
+      "country": "JP",
+      "time_posted": "1 hour ago",
+      "tags": [
+        "MGK"
+      ],
+      "details": [
+        "Must be pet-friendly",
+        "No smoking allowed",
+        "Must be tidy and organized",
+        "Preferably a morning person"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "mountainview",
+      "description": "Hiking group meetup",
+      "genre": "rap",
+      "type": "artist",
+      "country": "US",
+      "time_posted": "2 days ago",
+      "tags": [
+        "MGK"
+      ],
+      "details": [
+        "All skill levels welcome",
+        "Bring your own snacks",
+        "Meeting point: City Park",
+        "Rain or shine event"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "bookworm",
+      "description": "Book club meeting",
+      "genre": "Rock",
+      "type": "Band",
+      "country": "MX",
+      "time_posted": "30 mins ago",
+      "tags": [
+        "MGK"
+      ],
+      "details": [
+        "Discussing 'The Great Gatsby'",
+        "New members welcome",
+        "BYOB (Bring Your Own Book)",
+        "Location: Local coffee shop"
+      ]
+    },
+    {
+      "id": 5,
+      "username": "fitnessfanatic",
+      "description": "Running group",
+      "genre": "Country",
+      "type": "musician",
+      "country": "US",
+      "time_posted": "2s ago",
+      "tags": [
+        "MGK",
+        "Blink182",
+        "Facemelter",
+        "Lil Uzi Vert"
+      ],
+      "details": [
+        "Morning runs on weekdays",
+        "Meeting point: Central Park",
+        "All fitness levels encouraged",
+        "Bring your own water bottle"
+      ]
+    },
+    {
+      "id": 6,
+      "username": "musiclover",
+      "description": "Anyone need a photographer?",
+      "genre": "Punk",
+      "type": "Visuals",
+      "country": "US",
+      "time_posted": "57 mins ago",
+      "tags": [
+        "MGK",
+        "Blink182",
+        "Emo"
+      ],
+      "details": [
+        "Musicians wanted",
+        "Genre: Indie rock",
+        "Location: Basement Studio",
+        "BYOI (Bring Your Own Instrument)"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "techenthusiast",
+      "description": "Coding meetup",
+      "genre": "rap",
+      "type": "artist",
+      "country": "CA",
+      "time_posted": "40 mins ago",
+      "tags": [
+        "Emo"
+      ],
+      "details": [
+        "Open to all programming languages",
+        "Bring your laptop",
+        "Location: Tech Hub",
+        "Networking opportunities"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "foodie",
+      "description": "Cooking class",
+      "genre": "pop",
+      "type": "band",
+      "country": "CA",
+      "time_posted": "40 mins ago",
+      "tags": [
+        "Facemelter"
+      ],
+      "details": [
+        "Cuisine: Italian",
+        "Limited spots available",
+        "Location: Culinary School",
+        "Ingredients provided"
+      ]
+    },
+    {
+      "id": 9,
+      "username": "artlover",
+      "description": "Painting workshop",
+      "genre": "punk",
+      "type": "musician",
+      "country": "US",
+      "time_posted": "30 mins ago",
+      "tags": [
+        "mgk"
+      ],
+      "details": [
+        "No experience required",
+        "All art supplies provided",
+        "Location: Art Studio",
+        "Guided session by local artist"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "gamingcommunity",
+      "description": "Online gaming night",
+      "genre": "country",
+      "type": "artist",
+      "country": "CA",
+      "time_posted": "10 mins ago",
+      "tags": [
+        "Emo"
+      ],
+      "details": [
+        "Platform: PC",
+        "Game: Among Us",
+        "Time: 7:00 PM - 10:00 PM",
+        "Discord server link provided"
       ]
     }
   ]
