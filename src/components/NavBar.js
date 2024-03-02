@@ -8,6 +8,7 @@ import Badge from '@mui/material/Badge';
 import { NavLink } from "react-router-dom";
 import Logo from '../assets/wavjam_logo.png'
 import Divider from '@mui/material/Divider';
+import '../styles/home.css'
 
 export default function NavBar(){
   const [showNoti, setShowNoti] = useState(false)
@@ -53,10 +54,10 @@ export default function NavBar(){
 
           <div className='login-buttons'>
             <div>
-              <NavLink to='/signup'><Button variant='contained' size='medium' style={{backgroundColor: 'purple', marginRight: '20px'}}>Sign Up</Button></NavLink>
+              <NavLink to='/signupform'><Button variant='contained' size='medium' style={{backgroundColor: '#8C52FF', marginRight: '20px'}}>Sign Up</Button></NavLink>
             </div>
             <div>
-              <NavLink to='/login'> <Button variant='contained' size='medium'>Log In</Button></NavLink>
+              <NavLink to='/login'> <Button variant='contained' size='medium' style={{backgroundColor: '#C6C6C6', color: 'black'}}>Log In</Button></NavLink>
             </div>
           </div>
 
@@ -166,10 +167,14 @@ export default function NavBar(){
 
       <div className="nav-headers">
         <NavLink to='/'>Home</NavLink>
-        <NavLink to='/profile'>Profile</NavLink>
-        {/* <NavLink to='/producers'>Forum</NavLink> */}
-        {/* <NavLink to='/events'>Events</NavLink> */}
+        <NavLink to='/feed'>Feed</NavLink>
+        <NavLink to='/events'>Events</NavLink>
         {/* <NavLink to='/news'>News</NavLink> */}
+        {/* <NavLink to='/news'>Sync Liscensing</NavLink> */}
+        {/* <NavLink to='/news'>Active Venues</NavLink> */}
+        {/* <NavLink to='/news'>Workshops</NavLink> */}
+        {/* <NavLink to='/news'>Internships</NavLink> */}
+        {/* <NavLink to='/news'>Rent A Musician</NavLink> */}
         <NavLink to='/search'>Search</NavLink>
       </div>
     </div>

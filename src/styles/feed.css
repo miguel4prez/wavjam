@@ -1,0 +1,154 @@
+.feed-search-page {
+  background: linear-gradient(90deg, #20294a, #320037);
+  padding: 50px 0;
+}
+.feed-search-page h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: white;
+}
+.feed-search-page hr {
+  margin: 40px auto;
+  width: 50%;
+  border: solid 1px #8C52FF;
+}
+.feed-search-container {
+  width: 1250px;
+  margin: 0 auto;
+}
+.feed-search-container h1 {
+  margin-bottom: 50px;
+}
+
+.feed-text-search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.feed-search-container input[type='search'] {
+  background-color: #ECE8E6;
+  border: none;
+  width: 500px;
+  border-radius: 20px;
+  padding: 15px;
+}
+.feed-search-filter-buttons select {
+  background-color: #2F3133;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+.feed-search-filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.feed-search-filter-buttons button,
+.post-details-buttons button {
+  background-color: #8C52FF;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.feed-section {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+.feed-container {
+  width: 50%;
+  height: max-content;
+  background-color: transparent;
+  border: 2px solid white;
+  /* border-radius: 20px; */
+  /* padding: 20px; */
+}
+.post-details {
+  width: 50%;
+  height: max-content;
+  background-color: #20294A;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 0;
+}
+.post-details-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.post-details-flag {
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.post-details p {
+  margin-bottom: 10px;
+}
+.post-details hr {
+  border: solid 1px gray;
+  margin: 20px auto;
+  width: 75%;
+}
+.post-details h2 {
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.post-details-blurb {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.feed-information {
+  display: flex;
+  justify-content: space-between;
+}
+.feed-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.feed-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.feed-left p {
+  font-style: italic;
+}
+.feed-card p {
+  text-align: center;
+  color: white;
+}
+.feed-card {
+  padding: 20px;
+  height: 100%;
+}
+.feed-card:hover {
+  background-color: #8C52FF;
+  cursor: pointer;
+}
+.feed-container hr {
+  margin: 0 auto;
+  width: 100%;
+  border: solid 1px gray;
+}
+.post-details-buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post-details-buttons button:hover {
+  background-color: #9764fc;
+}

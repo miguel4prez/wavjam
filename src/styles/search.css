@@ -29,7 +29,7 @@ select {
   margin-bottom: 20px;
   gap: 10px;
 }
-.search-container input[type='text'] {
+.search-container input[type='search'] {
   background-color: #ECE8E6;
   border: none;
   width: 500px;
@@ -44,9 +44,12 @@ select {
 }
 .sort-search {
   display: flex;
-  justify-content: end;
   align-items: center;
   gap: 10px;
+}
+.sort-sec {
+  display: flex;
+  justify-content: space-between;
 }
 .sort-search p {
   font-weight: 400;
@@ -59,7 +62,8 @@ select {
   padding: 5px 10px;
   border: none;
 }
-.search-filter-buttons button {
+.search-filter-buttons button,
+.sort-sec button {
   background-color: #8C52FF;
   color: white;
   padding: 5px 15px;
@@ -79,7 +83,21 @@ div .no-artist-match {
   text-align: center;
   height: 100vh;
 }
+.user-card a {
+  color: black;
+}
+.user-card {
+  box-shadow: 30px 20px 30px rgba(255, 46, 46, 0.828);
+}
 .user-card hr {
   margin: 10px auto;
   border: solid 1px #B7B7B8;
+}
+.user-card a:hover {
+  color: #818336;
+}
+.user-card:hover,
+.popular-genres-container div img:hover {
+  box-shadow: #DEE15D 0 5px 15px;
+  cursor: pointer;
 }

@@ -3,8 +3,8 @@ import Play_Img from '../assets/outline_play_arrow_black_24dp.png'
 import Pause_Img from '../assets/outline_pause_black_24dp.png'
 import '../styles/usercardplayer.css'
 
-function UserCardPlayer({ date, isPlaying, setIsPlaying }){
-  const [currentSong, setCurrentSong] = useState(date)
+function UserCardPlayer({ userData, isPlaying, setIsPlaying }){
+  const [currentSong, setCurrentSong] = useState(userData)
   const audioEl = useRef()
   const clickref = useRef()
 
@@ -35,10 +35,10 @@ function UserCardPlayer({ date, isPlaying, setIsPlaying }){
 
   return (
     <div className="card-media-sec">
-      <p>{date.title}</p>
+      <p>{userData.title}</p>
       <div className="card-media-container">
 
-        <audio src={date.song_url} ref={audioEl} onTimeUpdate={onPlaying} />
+        <audio src={userData.song_url} ref={audioEl} onTimeUpdate={onPlaying} />
         <img onClick={handlePlayPause} src={isPlaying ? Pause_Img : Play_Img} />
 
         <div className="seek-wrapper" onClick={checkWidth} ref={clickref}>

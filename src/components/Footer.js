@@ -9,11 +9,9 @@ export default function Footer(){
           <li>
             <h3>WavJam</h3>
             <NavLink to="/about-us">About Us</NavLink>
-            <NavLink to='/press&news'>Press & News</NavLink>
-            <NavLink to='/sponsors'>Sponsors</NavLink>
             <NavLink to='/merch'>Merch</NavLink>
             <NavLink to='/events'>Events</NavLink>
-            <NavLink to='/blog'>Blog</NavLink>
+            {/* <NavLink to='/blog'>Blog</NavLink> */}
             <NavLink to='/terms&privacy'>Terms & Privacy</NavLink>
           </li>
           <li>
@@ -24,7 +22,7 @@ export default function Footer(){
           </li>
           <li>
             <h3>Community</h3>
-            <NavLink to='/forum'>Forum</NavLink>
+            <NavLink to='/feed'>Feed</NavLink>
             <NavLink to='/artists-near-me'>Artists Near Me</NavLink>
           </li>
           <li>

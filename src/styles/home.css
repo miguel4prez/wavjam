@@ -31,7 +31,6 @@ h4{
   font-weight: 400;
   font-style: italic;
 }
-
 /* Navbar Styles */
 .nav-container {
   padding: 0
@@ -90,8 +89,10 @@ h4{
 }
 .nav-headers a:hover {
   color: #6D8284;
+} 
+.nav-headers .active {
+  color: yellow;
 }
-
 .notification-container {
   background-color: white;
   border-radius: 10px;
@@ -189,8 +190,20 @@ h4{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.home-find-wav-container h2 {
+.home-find-wav-container a {
+  color: white;
   width: max-content; 
+  font-size: 25px;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 500;
+}
+.home-find-wav-container a:hover {
+  color: #8C52FF;
+  cursor: pointer;
+}
+/* .home-find-wav-container h2 {
+  width: 100%; 
   font-size: 25px;
   text-align: center;
   margin: 20px auto;
@@ -198,14 +211,14 @@ h4{
 .home-find-wav-container h2:hover {
   color: #8C52FF;
   cursor: pointer;
-}
+} */
 .popular-genres-sec {
   background: radial-gradient(circle at 0% 0%, #20294a, #947497);
   padding: 50px;
 }
 .popular-genres-sec h1 {
   text-align: center;
-  color: white;
+  color: #DEE15D;
   margin-bottom: 30px;
   font-size: 30px;
 }

@@ -1,0 +1,89 @@
+.post-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.alert {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+
+.post-form-popup {
+  background: radial-gradient(circle at 0% 0%, #20294a, #947497);
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  height: 420px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.post-form-popup h1 {
+  color: black;
+  margin: 10px auto;
+}
+.post-form {
+  margin-top: 30px;
+}
+.post-form input,
+.post-form textarea {
+  margin: 0 auto;
+  width: 50%;
+}
+.post-form input {
+  border-radius: 15px;
+  border: solid 1px black;
+  padding: 10px
+}
+.post-form textarea {
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  resize: none;
+}
+
+.post-form-popup form input {
+  display: block;
+}
+.form-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+} 
+.form-buttons button {
+  background-color: transparent;
+  /* padding: 0; */
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.form-buttons .form-cancel {
+  background-color: rgba(242, 59, 59, 0.974);
+  color: white
+}
+.form-buttons .form-submit {
+  background-color: #8C52FF;
+  color: white
+}
+.form-buttons .form-cancel:hover {
+  background-color: rgba(249, 93, 93, 0.974);
+}
+.form-buttons .form-submit:hover {
+  background-color: #a981f9;
+}

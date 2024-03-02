@@ -1,22 +1,20 @@
 import Home from './pages/Home'
 import Events from './pages/Events'
-import News from './pages/News'
 import Profile from './pages/Profile'
 import ErrorPage from './pages/ErrorPage'
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs'
 import Copyright from './pages/Copyright'
-import Forum from './pages/Forum'
 import Merch from './pages/Merch'
 import Pricing from './pages/Pricing'
-import Sponsors from './pages/Sponsors';
 import TermsPrivacy from './pages/TermsPrivacy'
 import ArtistsNearMe from './pages/ArtistsNearMe'
-import SignUp from './pages/SignUp';
 import LogIn from './pages/LogIn';
 import BecomeSeller from './pages/BecomeSeller';
 import Search from './pages/Search'
+import Feed from './pages/Feed'
 import App from './components/App'
+import SignUpMultiForm from './pages/SignUpMultiForm';
 
 const routes = [
   {
@@ -29,10 +27,15 @@ const routes = [
         errorElement: <ErrorPage />
       },
       {
-        path:'/search',
+        path:'/search/:genre?',
         element: <Search />,
         errorElement: <ErrorPage />
       },
+      // {
+      //   path:'/search/:genre',
+      //   element: <Search />,
+      //   errorElement: <ErrorPage />
+      // },
       {
         path: '/become-a-seller',
         element: <BecomeSeller />,
@@ -44,8 +47,13 @@ const routes = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/signup',
-        element: <SignUp />,
+        path: '/feed',
+        element: <Feed />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/signupform',
+        element: <SignUpMultiForm />,
         errorElement: <ErrorPage />
       },
       {
@@ -59,18 +67,8 @@ const routes = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/press&news',
-        element: <News />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/profile',
+        path: '/users/:id',
         element: <Profile />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/sponsors',
-        element: <Sponsors />,
         errorElement: <ErrorPage />
       },
       {
@@ -96,11 +94,6 @@ const routes = [
       {
         path: '/contact-us',
         element: <ContactUs />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/forum',
-        element: <Forum />,
         errorElement: <ErrorPage />
       },
       {

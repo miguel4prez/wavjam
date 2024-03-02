@@ -5,54 +5,63 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import UserCardPlayer from "./UserCardPlayer";
+import { useParams, Link } from "react-router-dom"; 
+import CircularIndeterminate from "./CircularIndeterminate";
 
-function UserCard({ date }){
+function UserCard({ userData }){
   const [isPlaying, setIsPlaying] = useState(false)
 
   return (
-    <Card className="user-card">
+      <Card className="user-card">
       
-        <CardMedia
-          component="img"
-          height="200"
-          image={date.image}
-          alt={date.name}
-        />
-        <CardContent>
+      <Link to={`/users/${userData.id}`}>
+      <CardMedia
+        component="img"
+        height="200"
+        image={userData.image}
+        alt={userData.username}
+        className="user-card-img"
+      />
 
-        <Typography variant="h5" component="div">
-          {date.name}
-        </Typography>
+      <CardContent style={{padding: '20px 0 0 0'}}>
 
-        <Typography style={{fontStyle: 'italic'}}>
-          {date.genre}
-        </Typography>
+      <Typography variant="h5" component="div">
+        {userData.username}
+      </Typography>
 
-        <Typography style={{
-          display: 'flex', 
-          justifyContent: 'center',
-          alignItems: 'center', 
-          textAlign: 'center',
-          }}>{date.location} 
+      <Typography style={{fontStyle: 'italic'}}>
+        {userData.genre}
+      </Typography>
 
-          <img style={{
-          width: '20px',
-          marginLeft: '5px'}} 
-          src={`https://flagsapi.com/${date.country}/flat/64.png`}/> 
-        </Typography>
+      <Typography style={{
+        display: 'flex', 
+        justifyContent: 'center',
+        alignItems: 'center', 
+        textAlign: 'center',
+        }}>{userData.location} 
 
-        {/* <Typography style={{marginTop: '15px'}} variant="body2" color="text.secondary">
-          {date.biography}
-        </Typography> */}
+        <img style={{
+        width: '20px',
+        marginLeft: '5px'}} 
+        src={`https://flagsapi.com/${userData.country}/flat/64.png`}/> 
+      </Typography>
 
-        <hr />
+      {/* <Typography style={{marginTop: '15px'}} variant="body2" color="text.secondary">
+        {date.biography}
+      </Typography> */}
 
-        <p><strong>Featured Track:</strong></p>
-        <UserCardPlayer date={date.song_data[0]} isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
+      <hr />
 
-      </CardContent>
-  
-  </Card>
+    </CardContent>
+    </Link>
+    <CardContent >
+      <p><strong>Featured Track:</strong></p>
+      <UserCardPlayer userData={userData.song_data[0]} isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
+    </CardContent>
+      
+
+
+    </Card>
 )};   
 
 export default UserCard;

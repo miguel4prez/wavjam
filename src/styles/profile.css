@@ -26,7 +26,7 @@
   justify-content: start;
   align-items: center;
 }
-.profile-img-and-info img {
+.user-profile-img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -99,13 +99,20 @@
   width: 50%;
   border: 1px solid #969393;
 }
-.about-me-sec article {
+.about-me-sec article{
   margin: 40px auto;
   width: 85%;
   color: #8C52FF;
   font-weight: 500;
 }
-.profile-tags {
+
+.about-me-container .card-media-sec {
+  margin: 20px;
+  color: #8C52FF;
+  font-weight: 500;
+}
+
+/* .profile-tags {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -120,7 +127,7 @@
   background-color: #8C52FF;
   padding: 10px 20px;
   text-align: center;
-}
+} */
 .profile-posts-sec {
   width: 50%;
   margin: 20px 0;
@@ -142,4 +149,35 @@
 }
 .tracks-section h1 {
   font-size: 50px;
+}
+.similar-artists {
+  background-color: #20294A;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+.similar-artists-container {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.similar-artists h1 {
+  color: #DEE15D;
+  font-size: 30px;
+}
+.similar-artists-container div {
+  margin-top: 40px;
+  /* display: grid;
+  grid-template-rows: repeat(2, 1fr); */
+  display: inline-block;
+  text-align: center;
+}
+.similar-artists-container div p {
+  color: white;
+}
+.similar-artists-container div img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }

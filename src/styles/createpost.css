@@ -1,0 +1,14 @@
+.create-post-page {
+  background-color: #2F3133;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-post-container {
+  border: solid white 1px;
+  padding: 20px;
+  margin: 30px;
+}
+.create-post-container h1 {
+  font-size: 50px;
+}

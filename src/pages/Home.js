@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState} from "react";
 import HomeSection from "../components/HomeSection";
+import { Link, useLocation } from "react-router-dom"; 
 import '../styles/home.css'
 
 import NavImg from '../assets/navbar_img.png'
@@ -67,12 +68,12 @@ function Home() {
           <div className="home-find-wav-container">
             <h1>Find Your <span>Wav</span></h1>
             <div>
-              <h2>Collaborate</h2>
-              <h2>Join a Band</h2>
-              <h2>Find Members</h2>
-              <h2>Rent A Musician</h2>
-              <h2>Engineers/Producers</h2>
-              <h2>Visuals</h2>
+              <Link to={`/search`} state='Artist'>Collaborate</Link>
+              <Link to={`/search`} state='Band'>Join a Band</Link>
+              <Link to={`/search`} state='Musician'>Find Members</Link>
+              {/* <Link to='/search'>Rent A Musician</Link>
+              <Link to='/search'>Engineers/Producers</Link>
+              <Link to='/search'>Visuals</Link> */}
             </div>
           </div>
       </section>
@@ -81,13 +82,15 @@ function Home() {
         <h1>Popular Genres</h1>
         <div className='popular-genres-container'>
           {popularGenresData.map((genre, index) => (
-            <div key={index}>
-              <img src={genre.img} alt={genre.genre} />
-              <p>{genre.genre}</p>
-            </div>
+            <Link to={`/search/${genre.genre}`}>
+              <div key={index}>
+                <img src={genre.img} alt={genre.genre} />
+                <p>{genre.genre}</p>
+              </div>
+            </Link>
           ))}
         </div>
-        <button>See All</button>
+        <Link to='/search'><button>See All</button></Link>
       </section>
     </div>
   );

@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/displayposts.css'
 
-function DisplayPosts(){
+function DisplayPosts({ userData }){
   return (
     <div className='display-posts'>
       <div className='display-posts-container'>
-        <img src="https://framethestage.com/wp-content/uploads/2019/12/Ronx.jpg" />
-        <p>Show this weekend, looking for a photographer</p>
+        <img src={userData.image} />
+        <p>{userData.posts[0].description}</p>
       </div>
-      <p className='post-time'>20 mins ago</p> 
+      <p className='post-time'>{userData.posts[0].time_posted}</p> 
       <hr />
       
     </div>

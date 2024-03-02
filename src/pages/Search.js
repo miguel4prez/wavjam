@@ -1,37 +1,56 @@
 import React, { useState, useEffect} from "react";
 import '../styles/search.css'
 import UserCard from "../components/UserCard";
+import { useParams, useSearchParams, useLocation } from "react-router-dom";
 
 
 function Search(){
-  const [selectedOption, setSelectedOption] = useState([])
   const [textSearch, setTextSearch] = useState('')
-  const [selectGenre, setSelectGenre] = useState('')
   const [selectType, setSelectType] = useState('')
   const [selectTag, setSelectTag] = useState('')
   const [selectCountry, setSelectCountry] = useState('')
+  const [selectGenre, setSelectGenre] = useState('')
   const [selectSort, setSelectSort] = useState('')
+  const [userData, setUserData] = useState([])
 
-  const [artistData, setArtistData] = useState([])
+  const type = useLocation()
+
+  // const [searchParams, setSearchParams] = useSearchParams({ 
+  //   textSearch: '', 
+  // selectType: '', 
+  // selectTag: '', 
+  // selectCountry: '', 
+  // selectGenre: '' })
+
+
+
+  const genre = useParams();
 
   useEffect(() => {
-    fetch('http://localhost:3000/artists')
+    fetch('http://127.0.0.1:5555/users')
     .then(res => res.json())
     .then(data => {
-      setArtistData(data)
+      setUserData(data)
     })
   }, []);
 
-  const filtertedCards = artistData.filter(artist => {
+  useEffect(() => {
+    setSelectGenre(genre.genre)
+    setSelectType(type.state)
+    console.log(type.state)
+  }, [])
+
+  const filtertedCards = userData.filter(user => {
     return (
-      (!textSearch || artist.name.toLowerCase().startsWith(textSearch.toLowerCase())) &&
-      (!selectGenre || artist.genre.toLowerCase().includes(selectGenre.toLowerCase())) &&
-      (!selectCountry || artist.country.toLowerCase().includes(selectCountry.toLowerCase())) &&
-      (!selectType || artist.type.toLowerCase().includes(selectType.toLowerCase())) && 
-      (!selectTag || artist.tags.includes(selectTag))
+      (!textSearch || user.username.toLowerCase().startsWith(textSearch.toLowerCase())) &&
+      (!selectGenre || user.genre.toLowerCase().includes(selectGenre.toLowerCase())) &&
+      (!selectCountry || user.country.toLowerCase().includes(selectCountry.toLowerCase())) &&
+      (!selectType || user.type.toLowerCase().includes(selectType.toLowerCase())) && 
+      (!selectTag || user.tags.map(tag => tag.tag_name).includes(selectTag))
     );
   })
-  .sort((a, b) => a.name.localeCompare(b.name));
+  
+  // .sort((a, b) => a.name.localeCompare(b.name));
 
   function handleReset() {
     setTextSearch('')
@@ -49,7 +68,7 @@ function Search(){
         <h1>Discover</h1>
 
         <div className="text-search-container">
-          <input type="text" value={textSearch} onChange={event => setTextSearch(event.target.value)} placeholder="search here..." />
+          <input type="search" value={textSearch} onChange={event => setTextSearch(event.target.value)} placeholder="search here..." />
         </div>
         
 
@@ -95,20 +114,11 @@ function Search(){
         </div> 
 
         <hr />
-
-        <div className='sort-search'>
-            <p>SORT BY:</p>
-            <select value={selectSort} onChange={event => setSelectSort(event.target.value)}>
-              <option value='Revelance'>Revelance</option>
-              <option value='Newest User'>Newest User</option>
-            </select>
-        </div>
-      
         
         <div>
           {filtertedCards.length > 0 ? (
             <div className="user-cards-container">
-             {filtertedCards.map(date => (<UserCard date={date} key={date.id} />))}
+             {filtertedCards.map(userData => (<UserCard userData={userData} key={userData.id} />))}
             </div>) 
             : 
             (<p className="no-artist-match">No matching results found.</p>)}
