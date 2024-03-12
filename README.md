@@ -14,9 +14,9 @@ Being a musician myself, I know the struggle of finding other musicians to conne
 Many more features will be added to this project as this is just phase 1 of WavJam. I will be documenting my journey!
 
 ## Tech Stack as of Phase-1:
-React
-Flask
-SQLite
-Vanilla CSS
+- React
+- Flask
+- SQLite
+- Vanilla CSS
 
 *Server Code available upon request. This is an ongoing project.*
