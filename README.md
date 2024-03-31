@@ -18,5 +18,3 @@ Many more features will be added to this project as this is just phase 1 of WavJ
 - Flask
 - SQLite
 - Vanilla CSS
-
-_Server Code available upon request. This is an ongoing project._
