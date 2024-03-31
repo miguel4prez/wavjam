@@ -13,6 +13,7 @@ flask-validates = "*"
 flask-bcrypt = "*"
 flask-cors = "*"
 datetime = "*"
+flask-socketio = "*"
 
 [dev-packages]
 

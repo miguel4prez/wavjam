@@ -2,5 +2,8 @@
   "dependencies": {
     "country-state-city": "^3.2.1",
     "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.6"
   }
 }
